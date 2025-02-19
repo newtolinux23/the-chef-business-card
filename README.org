@@ -1,0 +1,41 @@
+* Project: HTML5 Bio (Aerial Template)
+
+* Overview
+  This project is a personal bio page using the "Aerial" template from HTML5 UP. The main update includes the addition of a circular profile picture above the name while maintaining the original design and animations.
+
+* Changes Made
+  - Added a profile picture (profile.jpg) above the name in `index.html`.
+  - Updated `index.html` to include an `<img>` tag for the profile picture.
+  - Styled the profile picture using CSS to appear as a circular image with a white border.
+  - Ensured that all existing animations and design elements remain intact.
+
+* Files Modified
+  - *index.html*
+    - Inserted an `<img>` tag with class `profile-pic` above the `<h1>` containing the name.
+  - *assets/css/main.css*
+    - Added the following CSS rule for the circular profile picture:
+
+  #+BEGIN_SRC css
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 15px;
+        border: 3px solid #fff;
+    }
+  #+END_SRC
+
+* How to Use
+  1. Place your profile image in the `assets/images/` directory and rename it to `profile.jpg`.
+  2. Open `index.html` to confirm that the image is displayed above the name.
+  3. Customize the image size and border in `main.css` if needed.
+
+* Notes
+  - The original background animations and responsive design remain unchanged.
+  - Ensure that `profile.jpg` exists in the correct path to avoid broken image issues.
+  - You can replace `profile.jpg` with another image, updating the `src` attribute in `index.html` if necessary.
+
+* Credits
+  - Template: [Aerial by HTML5 UP](https://html5up.net/aerial)
+  - Custom Modifications by [Your Name]
